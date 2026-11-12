@@ -1,0 +1,276 @@
+{
+  "fecha_entrenamiento": "2026-11-11",
+  "versiones": {
+    "scikit-learn": "1.6.1",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  },
+  "semilla": 42,
+  "umbral": 0.5,
+  "variables": [
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "AnyHealthcare",
+    "NoDocbcCost",
+    "DiffWalk",
+    "Sex",
+    "GenHlth",
+    "Age",
+    "Education",
+    "Income",
+    "BMI",
+    "MentHlth",
+    "PhysHlth"
+  ],
+  "registros": {
+    "total": 253680,
+    "entrenamiento": 202944,
+    "prueba": 50736,
+    "positivos_prueba": 7069,
+    "prevalencia_general": 13.93
+  },
+  "metricas_prueba": {
+    "Accuracy": 0.732,
+    "Precisión": 0.311,
+    "Recall (sensibilidad)": 0.761,
+    "Especificidad": 0.727,
+    "F1": 0.441,
+    "F1 macro": 0.632,
+    "ROC-AUC": 0.82
+  },
+  "matriz_confusion": {
+    "VN": 31734,
+    "FP": 11933,
+    "FN": 1689,
+    "VP": 5380
+  },
+  "coeficientes": {
+    "HighBP": 0.3643,
+    "HighChol": 0.2873,
+    "CholCheck": 0.2477,
+    "Smoker": 0.0021,
+    "Stroke": 0.0372,
+    "HeartDiseaseorAttack": 0.073,
+    "PhysActivity": -0.0194,
+    "Fruits": -0.0348,
+    "Veggies": -0.0073,
+    "HvyAlcoholConsump": -0.173,
+    "AnyHealthcare": 0.0139,
+    "NoDocbcCost": 0.0134,
+    "DiffWalk": 0.0374,
+    "Sex": 0.1392,
+    "GenHlth": 0.6188,
+    "Age": 0.4574,
+    "Education": -0.0374,
+    "Income": -0.1193,
+    "BMI": 0.4906,
+    "MentHlth": -0.0323,
+    "PhysHlth": -0.0584
+  },
+  "intercepto": -0.6597,
+  "medias": {
+    "HighBP": 0.4289951907915484,
+    "HighChol": 0.42430424156417534,
+    "CholCheck": 0.9624182040365815,
+    "Smoker": 0.4428610848312835,
+    "Stroke": 0.040405234941658784,
+    "HeartDiseaseorAttack": 0.09424767423525701,
+    "PhysActivity": 0.7569920766319773,
+    "Fruits": 0.6344262456638284,
+    "Veggies": 0.811425812046673,
+    "HvyAlcoholConsump": 0.055729659413434246,
+    "AnyHealthcare": 0.9511490854619994,
+    "NoDocbcCost": 0.0846243298643961,
+    "DiffWalk": 0.16815968937243772,
+    "Sex": 0.441013284452854,
+    "GenHlth": 2.5118357773573003,
+    "Age": 8.03282678965626,
+    "Education": 5.049925102491327,
+    "Income": 6.050831756543677,
+    "BMI": 28.377961408073162,
+    "MentHlth": 3.189796199936928,
+    "PhysHlth": 4.250817959634185
+  },
+  "desviaciones": {
+    "HighBP": 0.4949326389209661,
+    "HighChol": 0.4942369392860324,
+    "CholCheck": 0.1901825559182084,
+    "Smoker": 0.4967244149156977,
+    "Stroke": 0.19690772440655585,
+    "HeartDiseaseorAttack": 0.2921729798193219,
+    "PhysActivity": 0.4288998397625999,
+    "Fruits": 0.48159068146791223,
+    "Veggies": 0.3911699932140378,
+    "HvyAlcoholConsump": 0.22939891995189707,
+    "AnyHealthcare": 0.21555626339033063,
+    "NoDocbcCost": 0.2783218508478951,
+    "DiffWalk": 0.3740080323236427,
+    "Sex": 0.49650837595045677,
+    "GenHlth": 1.0683754305956445,
+    "Age": 3.0513799829221417,
+    "Education": 0.9863817644527817,
+    "Income": 2.0726558842356524,
+    "BMI": 6.598276964478023,
+    "MentHlth": 7.417595440588827,
+    "PhysHlth": 8.725624601014863
+  },
+  "prevalencia_por_grupo": {
+    "Age": {
+      "1": {
+        "prevalencia": 1.4,
+        "n": 5700
+      },
+      "2": {
+        "prevalencia": 1.8,
+        "n": 7598
+      },
+      "3": {
+        "prevalencia": 2.8,
+        "n": 11123
+      },
+      "4": {
+        "prevalencia": 4.5,
+        "n": 13823
+      },
+      "5": {
+        "prevalencia": 6.5,
+        "n": 16157
+      },
+      "6": {
+        "prevalencia": 8.8,
+        "n": 19819
+      },
+      "7": {
+        "prevalencia": 11.7,
+        "n": 26314
+      },
+      "8": {
+        "prevalencia": 13.8,
+        "n": 30832
+      },
+      "9": {
+        "prevalencia": 17.2,
+        "n": 33244
+      },
+      "10": {
+        "prevalencia": 20.4,
+        "n": 32194
+      },
+      "11": {
+        "prevalencia": 21.8,
+        "n": 23533
+      },
+      "12": {
+        "prevalencia": 21.3,
+        "n": 15980
+      },
+      "13": {
+        "prevalencia": 18.5,
+        "n": 17363
+      }
+    },
+    "GenHlth": {
+      "1": {
+        "prevalencia": 2.5,
+        "n": 45299
+      },
+      "2": {
+        "prevalencia": 7.2,
+        "n": 89084
+      },
+      "3": {
+        "prevalencia": 17.8,
+        "n": 75646
+      },
+      "4": {
+        "prevalencia": 31,
+        "n": 31570
+      },
+      "5": {
+        "prevalencia": 37.9,
+        "n": 12081
+      }
+    },
+    "HighBP": {
+      "0": {
+        "prevalencia": 6,
+        "n": 144851
+      },
+      "1": {
+        "prevalencia": 24.4,
+        "n": 108829
+      }
+    },
+    "Income": {
+      "1": {
+        "prevalencia": 24.3,
+        "n": 9811
+      },
+      "2": {
+        "prevalencia": 26.2,
+        "n": 11783
+      },
+      "3": {
+        "prevalencia": 22.3,
+        "n": 15994
+      },
+      "4": {
+        "prevalencia": 20.1,
+        "n": 20135
+      },
+      "5": {
+        "prevalencia": 17.4,
+        "n": 25883
+      },
+      "6": {
+        "prevalencia": 14.5,
+        "n": 36470
+      },
+      "7": {
+        "prevalencia": 12.2,
+        "n": 43219
+      },
+      "8": {
+        "prevalencia": 8,
+        "n": 90385
+      }
+    }
+  },
+  "comparacion_modelos_prueba": {
+    "Línea base": {
+      "Accuracy": 0.861,
+      "Recall": 0,
+      "Especificidad": 1,
+      "F1": 0,
+      "ROC-AUC": 0.5
+    },
+    "Regresión logística": {
+      "Accuracy": 0.732,
+      "Recall": 0.761,
+      "Especificidad": 0.727,
+      "F1": 0.441,
+      "ROC-AUC": 0.82
+    },
+    "Árbol de decisión": {
+      "Accuracy": 0.698,
+      "Recall": 0.77,
+      "Especificidad": 0.686,
+      "F1": 0.415,
+      "ROC-AUC": 0.801
+    }
+  },
+  "validacion_cruzada_rl": {
+    "Accuracy": "0,732 ± 0,001",
+    "Recall": "0,765 ± 0,009",
+    "F1": "0,443 ± 0,004",
+    "ROC-AUC": "0,822 ± 0,003"
+  }
+}
