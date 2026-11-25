@@ -68,5 +68,5 @@ Learning Repository con `ucimlrepo` y lo guarda en esa ruta.
 1. Subir este repositorio a GitHub (público).
 2. Entrar a <https://share.streamlit.io> con la cuenta de GitHub y elegir **Create app**.
 3. Seleccionar el repositorio, la rama `main` y el archivo principal `app.py`.
-4. En **Advanced settings**, elegir Python 3.12.
+4. En **Advanced settings**, elegir Python 3.13 (la versión con la que está desplegada la aplicación; Python 3.14 no es compatible con NumPy 2.1.3).
 5. Pulsar **Deploy** y copiar el enlace público generado.
